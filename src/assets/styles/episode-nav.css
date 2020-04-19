@@ -1,0 +1,26 @@
+.episode-nav {
+  margin-top: 2rem;
+}
+
+.episode-nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.episode-nav li {
+  text-align: center;
+  flex-basis: 30%;
+  padding: 1%;
+}
+
+.episode-nav a {
+  font-family: 'universal';
+  font-size: 1.5rem;
+  color: #ffd23e;
+}
+
+.episode-nav span {
+  font-family: 'News Cycle', sans-serif;
+}
