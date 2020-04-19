@@ -5,7 +5,7 @@ import { history } from './history';
 
 import Home from 'pages/Home';
 import Episode from 'pages/Episode';
-import NotFound from 'pages/NotFound';
+import Page404 from 'pages/404';
 
 const Routes = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -13,7 +13,7 @@ const Routes = () => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/:episode" component={Episode} />
-        <Route path="*" component={NotFound} />
+        <Route path="*" component={Page404} />
       </Switch>
     </Router>
   </BrowserRouter>
