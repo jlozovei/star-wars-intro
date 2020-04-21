@@ -11,7 +11,7 @@
   opacity: 0;
   visibility: hidden;
   text-align: center;
-  animation: seeMore 1s ease-in-out 104s 1 forwards;
+  animation: seeMore 1s ease-in-out 97s 1 forwards;
 }
 
 @keyframes seeMore {

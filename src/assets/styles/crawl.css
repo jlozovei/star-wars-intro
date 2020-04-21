@@ -29,7 +29,7 @@
   color: #ffd23e;
   overflow: visible;
   opacity: 0;
-  animation: text 80s linear 16s;
+  animation: text 75s linear 15s;
 }
 
 .crawl__background {
@@ -40,7 +40,7 @@
   height: 300vh;
   background: url(../images/galaxy.png) repeat;
   opacity: 0;
-  animation: background 4s 99s forwards;
+  animation: background 4s 92s forwards;
 }
 
 .crawl h1,
