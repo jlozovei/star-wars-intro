@@ -19,7 +19,7 @@ import 'assets/styles/see-more.css';
 import 'assets/styles/not-found.css';
 
 ReactDOM.render(
-  <Router history={history}>
+  <Router history={history} basename="/star-wars-intro">
     <App />
   </Router>,
   document.getElementById('root')
