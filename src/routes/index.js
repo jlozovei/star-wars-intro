@@ -1,22 +1,22 @@
 import React from 'react';
-import { BrowserRouter, Router, Route, Switch } from 'react-router-dom';
-
-import { history } from './history';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from 'pages/Home';
 import Episode from 'pages/Episode';
 import Page404 from 'pages/404';
 
-const Routes = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Router history={history}>
+const Routes = () => {
+  const basename = '/star-wars-intro';
+
+  return (
+    <BrowserRouter basename={basename}>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/:episode" component={Episode} />
         <Route path="*" component={Page404} />
       </Switch>
-    </Router>
-  </BrowserRouter>
-);
+    </BrowserRouter>
+  );
+};
 
 export default Routes;
