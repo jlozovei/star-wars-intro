@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from 'react-router-dom';
-
-import { history } from 'routes/history';
 
 import App from './App';
 
@@ -18,9 +15,4 @@ import 'assets/styles/episode-nav.css';
 import 'assets/styles/see-more.css';
 import 'assets/styles/not-found.css';
 
-ReactDOM.render(
-  <Router history={history} basename="/star-wars-intro">
-    <App />
-  </Router>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
