@@ -6,7 +6,8 @@ Available at [jlozovei.github.io/star-wars-intro](https://jlozovei.github.io/sta
 ## :gem: Stack
 Built with [React](https://reactjs.org/) - to create reusable components and the routing layer (with [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)). All the transitions were built with plain, old CSS (keyframes and delays).
 
-I've copied the crawls from [Star Wars Fandom](https://starwars.fandom.com/wiki/Opening_crawl).
+- The crawls are available at [Star Wars Fandom](https://starwars.fandom.com/wiki/Opening_crawl);
+- The opening theme, composed by John Williams, is available at [Internet Archive](https://archive.org/details/StarWarsThemeSongByJohnWilliams).
 
 
 ### :sparkles: Related
