@@ -1,0 +1,16 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(../images/galaxy.png) repeat;
+  font-family: 'news-gothic';
+  text-align: center;
+}
+
+body,
+a {
+  color: #4bd5ee;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}

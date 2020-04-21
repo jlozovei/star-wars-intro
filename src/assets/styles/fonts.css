@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'news-gothic';
+  src: url('../fonts/gothic/news-gothic-webfont.eot');
+  src: url('../fonts/gothic/news-gothic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothic/news-gothic-webfont.woff') format('woff'),
+    url('../fonts/gothic/news-gothic-webfont.ttf') format('truetype'),
+    url('../fonts/gothic/news-gothic-webfont.svg#news-gothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'universal';
+  src: url('../fonts/universal/universal-webfont.eot');
+  src: url('../fonts/universal/universal-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/universal/universal-webfont.woff2') format('woff2'),
+    url('../fonts/universal/universal-webfont.woff') format('woff'),
+    url('../fonts/universal/universal-webfont.ttf') format('truetype'),
+    url('../fonts/universal/universal-webfont.svg#universal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
