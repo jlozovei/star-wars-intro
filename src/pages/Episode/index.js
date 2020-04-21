@@ -12,17 +12,19 @@ import starWarsOpeningTheme from 'assets/audio/star-wars-opening-theme.mp3';
 const Episode = () => {
   const { episode } = useParams();
   const [data, setData] = useState('');
-  const AUDIO_DELAY = 5500;
 
   useEffect(() => {
     const audio = document.createElement('audio');
     audio.src = starWarsOpeningTheme;
 
+    const AUDIO_DELAY = 5500;
+    let audioTimeout = '';
+
     try {
       const crawl = require(`data/${episode}.json`);
       setData(crawl);
 
-      setTimeout(() => {
+      audioTimeout = setTimeout(() => {
         audio.play();
       }, AUDIO_DELAY);
     } catch (err) {
@@ -31,6 +33,7 @@ const Episode = () => {
 
     return () => {
       audio.pause();
+      if (audioTimeout !== '') clearTimeout(audioTimeout);
     };
   }, [episode]);
 
