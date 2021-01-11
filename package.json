@@ -7,7 +7,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier \"{./,tests}/*.js\" --write"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.8.0",
@@ -43,5 +44,18 @@
   "bugs": {
     "url": "https://github.com/jlozovei/star-wars-intro/issues"
   },
-  "homepage": "."
+  "homepage": ".",
+   "husky": {
+    "hooks": {
+      "pre-push": "npm run format"
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
 }
