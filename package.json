@@ -8,7 +8,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier \"{./,tests}/*.js\" --write"
+    "format": "prettier \"{./,src}/**/*.js\" --write"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.8.0",
