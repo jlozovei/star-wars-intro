@@ -1,6 +1,6 @@
 {
   "name": "star-wars-intro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The opening crawls from all Star Wars episodes",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.0"
+    "react-scripts": "^4.0.1"
   },
   "browserslist": {
     "production": [
@@ -38,10 +38,10 @@
     "type": "git",
     "url": "git+https://github.com/jlozovei/star-wars-intro.git"
   },
-  "author": "Julio Lozovei <jlozovei@gmail.com>",
+  "author": "Julio Lozovei <jlozovei@gmail.com> (https://jlozovei.dev)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/jlozovei/star-wars-intro/issues"
   },
-  "homepage": "http://jlozovei.github.io/star-wars-intro"
+  "homepage": "."
 }
