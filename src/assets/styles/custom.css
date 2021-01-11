@@ -14,3 +14,17 @@ a {
 h1 {
   margin-bottom: 2rem;
 }
+
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
